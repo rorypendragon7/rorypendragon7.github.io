@@ -1,0 +1,23 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+body {
+    background-color:var(--white);
+    height: 100vh;
+}
+.card-container {
+    background-color: var(--light-gray);
+    width: 320px;
+    height: 499px;
+    border-radius: 20px;
+}
+.card-img {
+    width: 290px;
+    height: 290px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
